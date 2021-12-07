@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a3650;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171a21;
+  height: 100px;
+}
+
+header img {
+  width: 200px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  list-style: none;
+}
+
+.list a {
+  color: #c5c3c0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.list a:hover {
+  color: #ffffff;
+}
+
+.recommended-games {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.recommended-games h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0 30px 20px 0;
+}
+
+.card h3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin-top: 124px;
+}
+
+footer h2 {
+  color: #67c1f5;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: #c5c3c0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer button {
+  margin-bottom: 10px;
+  width: 70px;
+  height: 25px;
+  color: #d2e885;
+  background-color: #617b05;
+  border: 1px solid #a4d007;
+}
+
+footer button:hover {
+  color: #617b05;
+  background-color: #a4d007;
+}
+
+footer a {
+  color: #ffffff;
+}
